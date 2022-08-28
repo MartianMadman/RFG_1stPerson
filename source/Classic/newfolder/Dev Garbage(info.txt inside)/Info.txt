@@ -1,0 +1,1 @@
+Cut content from when I was trying to add 1st person to vehicles. Might be useful for any madlad who is dedicated enough to finish the 1st person vehicles. There may also be some useful info in cutlines.txt if you wanna reimplement the 1st person turrets.

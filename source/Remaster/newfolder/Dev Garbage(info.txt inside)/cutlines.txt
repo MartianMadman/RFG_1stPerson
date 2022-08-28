@@ -1,0 +1,775 @@
+(shitty cut content goes here. Nothing important for the user.)
+
+	<Replace File="build\pc\cache\misc.vpp\vehicle_mini.xtbl" NewFile="newfolder\vehicle_mini.xtbl" />
+	<Replace File="build\pc\cache\misc.vpp\vehicle_taxi.xtbl" NewFile="newfolder\vehicle_taxi.xtbl" />
+	<Replace File="build\pc\cache\misc.vpp\vehicle_mineratv.xtbl" NewFile="newfolder\vehicle_mineratv.xtbl" />
+	<Replace File="build\pc\cache\misc.vpp\vehicle_luxuryc.xtbl" NewFile="newfolder\vehicle_luxuryc.xtbl" />
+	<Replace File="build\pc\cache\misc.vpp\vehicle_scout.xtbl" NewFile="newfolder\vehicle_scout.xtbl" />
+	<Replace File="build\pc\cache\misc.vpp\vehicle_raider.xtbl" NewFile="newfolder\vehicle_raider.xtbl" />
+	<Replace File="build\pc\cache\misc.vpp\vehicle_minrover.xtbl" NewFile="newfolder\vehicle_minrover.xtbl" />
+	<Replace File="build\pc\cache\misc.vpp\vehicle_runner.xtbl" NewFile="newfolder\vehicle_runner.xtbl" />
+	<Replace File="build\pc\cache\misc.vpp\vehicle_runnerc.xtbl" NewFile="newfolder\vehicle_runnerc.xtbl" />
+	<Replace File="build\pc\cache\misc.vpp\vehicle_trash.xtbl" NewFile="newfolder\vehicle_trash.xtbl" />
+	<Replace File="build\pc\cache\misc.vpp\vehicle_msupplytruck.xtbl" NewFile="newfolder\vehicle_msupplytruck.xtbl" />
+	<Replace File="build\pc\cache\misc.vpp\vehicle_marstomp.xtbl" NewFile="newfolder\vehicle_marstomp.xtbl" />
+	<Replace File="build\pc\cache\misc.vpp\vehicle_marjetter.xtbl" NewFile="newfolder\vehicle_marjetter.xtbl" />
+	<Replace File="build\pc\cache\misc.vpp\vehicle_marchomper.xtbl" NewFile="newfolder\vehicle_marchomper.xtbl" />
+	<Replace File="build\pc\cache\misc.vpp\vehicle_lightpickup.xtbl" NewFile="newfolder\vehicle_lightpickup.xtbl" />
+	<Replace File="build\pc\cache\misc.vpp\vehicle_fueltanker.xtbl" NewFile="newfolder\vehicle_fueltanker.xtbl" />
+	<Replace File="build\pc\cache\misc.vpp\vehicle_flatbed.xtbl" NewFile="newfolder\vehicle_flatbed.xtbl" />
+	<Replace File="build\pc\cache\misc.vpp\vehicle_emergency.xtbl" NewFile="newfolder\vehicle_emergency.xtbl" />
+	<Replace File="build\pc\cache\misc.vpp\vehicle_dumptruck.xtbl" NewFile="newfolder\vehicle_dumptruck.xtbl" />
+	<Replace File="build\pc\cache\misc.vpp\vehicles_staffcar.xtbl" NewFile="newfolder\vehicles_staffcar.xtbl" />
+	<Replace File="build\pc\cache\misc.vpp\vehicle_bus.xtbl" NewFile="newfolder\vehicle_bus.xtbl" />
+	<Replace File="build\pc\cache\misc.vpp\vehicle_edfsupplytruck.xtbl" NewFile="newfolder\vehicle_edfsupplytruck.xtbl" />
+	<Replace File="build\pc\cache\misc.vpp\vehicle_defaults.xtbl" NewFile="newfolder\vehicle_defaults.xtbl" />
+	<Replace File="build\pc\cache\misc.vpp\vehicles.xtbl" NewFile="newfolder\vehicles.xtbl" />
+
+	<Tweak_Table_Entry>
+		<Name>Vehicle_small_angle</Name>
+		<Value>0.15</Value>
+		<Description>Angle in radians.  If the wheels of a vehicle are turned less than this amount, the camera will not do predictive adjustments.</Description>
+		<_Editor>
+			<Category>Vehicles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Vehicle_camera_recenter_rate</Name>
+		<Value>0.0</Value>
+		<Description>Multiplier for how fast the camera will recenter behind the vehicle</Description>
+		<_Editor>
+			<Category>Vehicles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+	<Tweak_Table_Entry>
+		<Name>Vehicle_predictive_adjust</Name>
+		<Value>0.0</Value>
+		<Description>Same as Vehicle camera recenter rate except only for predictive cameras.</Description>
+		<_Editor>
+			<Category>Vehicles</Category>
+			</_Editor>
+		</Tweak_Table_Entry>
+
+
+	<Edit File="build\pc\cache\misc.vpp\turrets.xtbl" LIST_ACTION="COMBINE_BY_FIELD:Name,_Editor/Category">
+	<Turret>
+		<Name>turret_tharsis_gun</Name>
+		<_Editor>
+			<Category>Vehicle Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.6</X>
+			<Y>0.3</Y>
+			<Z>-5.7</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.0</X>
+			<Y>0.44</Y>
+			<Z>-0.45</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_vehicle_noturret</Name>
+		<_Editor>
+			<Category>Vehicle Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.6</X>
+			<Y>0.3</Y>
+			<Z>-5.7</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.0</X>
+			<Y>0.44</Y>
+			<Z>-0.45</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_vehicle_HeavyTank</Name>
+		<_Editor>
+			<Category>Vehicle Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0</X>
+			<Y>1.25</Y>
+			<Z>0.5</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>0</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_vehicle_ring_HeavyTank</Name>
+		<_Editor>
+			<Category>Vehicle Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.0</X>
+			<Y>1.0</Y>
+			<Z>0.5</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>0</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_vehicle_MedTank</Name>
+		<_Editor>
+			<Category>Vehicle Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0</X>
+			<Y>0.75</Y>
+			<Z>0.5</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>0</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_vehicle_ArtTank</Name>
+		<_Editor>
+			<Category>Vehicle Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0</X>
+			<Y>1.25</Y>
+			<Z>0.0</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>0</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_vehicle_flyer_1</Name>
+		<_Editor>
+			<Category>Vehicle Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.6</X>
+			<Y>0.3</Y>
+			<Z>-5.7</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.0</X>
+			<Y>0.44</Y>
+			<Z>-0.45</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_vehicle_flyer_2</Name>
+		<_Editor>
+			<Category>Vehicle Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.6</X>
+			<Y>0.3</Y>
+			<Z>-5.7</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.0</X>
+			<Y>0.44</Y>
+			<Z>-0.45</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_vehicle_flyer_3</Name>
+		<_Editor>
+			<Category>Vehicle Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.6</X>
+			<Y>0.3</Y>
+			<Z>-5.7</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.0</X>
+			<Y>0.44</Y>
+			<Z>-0.45</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_vehicle_rocket</Name>
+		<_Editor>
+			<Category>Vehicle Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.275</X>
+			<Y>0.65</Y>
+			<Z>0.25</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.275</X>
+			<Y>0.65</Y>
+			<Z>0.25</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_vehicle_flatbed_rocket</Name>
+		<_Editor>
+			<Category>Vehicle Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.0</X>
+			<Y>1.5</Y>
+			<Z>0.3</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.0</X>
+			<Y>1.5</Y>
+			<Z>0.3</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_vehicle_jetter_rocket_mg</Name>
+		<_Editor>
+			<Category>Vehicle Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0</X>
+			<Y>1.0</Y>
+			<Z>0</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0</X>
+			<Y>1.0</Y>
+			<Z>0</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_rocket</Name>
+		<_Editor>
+			<Category>Normal Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.0</X>
+			<Y>1.5</Y>
+			<Z>0.0</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.0</X>
+			<Y>1.5</Y>
+			<Z>0.0</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_machinegun</Name>
+		<_Editor>
+			<Category>Normal Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.0</X>
+			<Y>1.45</Y>
+			<Z>0.0</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.0</X>
+			<Y>1.45</Y>
+			<Z>0.0</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_gauss</Name>
+		<_Editor>
+			<Category>Normal Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.0</X>
+			<Y>1.45</Y>
+			<Z>0.0</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.0</X>
+			<Y>1.45</Y>
+			<Z>0.0</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_rocket_slow</Name>
+		<_Editor>
+			<Category>Normal Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.0</X>
+			<Y>1.6</Y>
+			<Z>0.25</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.0</X>
+			<Y>1.6</Y>
+			<Z>0.25</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>artillery_gun</Name>
+		<_Editor>
+			<Category>Normal Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.6</X>
+			<Y>2.3</Y>
+			<Z>-5.7</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.0</X>
+			<Y>0.44</Y>
+			<Z>-0.45</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_harpoon</Name>
+		<_Editor>
+			<Category>Normal Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.0</X>
+			<Y>1.6</Y>
+			<Z>0.25</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.0</X>
+			<Y>1.6</Y>
+			<Z>0.25</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_rocket_guerrilla</Name>
+		<_Editor>
+			<Category>Normal Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.0</X>
+			<Y>1.5</Y>
+			<Z>0.0</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.0</X>
+			<Y>1.5</Y>
+			<Z>0.0</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_machinegun_180</Name>
+		<_Editor>
+			<Category>Normal Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.0</X>
+			<Y>1.45</Y>
+			<Z>0.0</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.0</X>
+			<Y>1.45</Y>
+			<Z>0.0</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_vehicle_machinegun</Name>
+		<_Editor>
+			<Category>Vehicle Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.6</X>
+			<Y>0.3</Y>
+			<Z>-5.7</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.0</X>
+			<Y>0.44</Y>
+			<Z>-0.45</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_vehicle_ring_mg</Name>
+		<_Editor>
+			<Category>Vehicle Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.275</X>
+			<Y>0.65</Y>
+			<Z>0.25</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.275</X>
+			<Y>0.65</Y>
+			<Z>0.25</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_vehicle_ring_apc_mg</Name>
+		<_Editor>
+			<Category>Vehicle Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.275</X>
+			<Y>0.65</Y>
+			<Z>0.25</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.275</X>
+			<Y>0.65</Y>
+			<Z>0.25</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_vehicle_ring_supply_mg</Name>
+		<_Editor>
+			<Category>Vehicle Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.275</X>
+			<Y>0.65</Y>
+			<Z>0.25</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.275</X>
+			<Y>0.65</Y>
+			<Z>0.25</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_vehicle_ring_staff_mg</Name>
+		<_Editor>
+			<Category>Vehicle Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.275</X>
+			<Y>0.65</Y>
+			<Z>0.25</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.275</X>
+			<Y>0.65</Y>
+			<Z>0.25</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_vehicle_ring_scout_mg</Name>
+		<_Editor>
+			<Category>Vehicle Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.275</X>
+			<Y>0.65</Y>
+			<Z>0.25</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.275</X>
+			<Y>0.65</Y>
+			<Z>0.25</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_vehicle_ring_staffH2H_gauss</Name>
+		<_Editor>
+			<Category>Vehicle Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.275</X>
+			<Y>0.65</Y>
+			<Z>0.25</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.275</X>
+			<Y>0.65</Y>
+			<Z>0.25</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_vehicle_ring_gauss</Name>
+		<_Editor>
+			<Category>Vehicle Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.275</X>
+			<Y>0.65</Y>
+			<Z>0.25</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.275</X>
+			<Y>0.65</Y>
+			<Z>0.25</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_vehicle_ring_supply_gauss</Name>
+		<_Editor>
+			<Category>Vehicle Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.275</X>
+			<Y>0.65</Y>
+			<Z>0.25</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.275</X>
+			<Y>0.65</Y>
+			<Z>0.25</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_vehicle_ring_staff_gauss</Name>
+		<_Editor>
+			<Category>Vehicle Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.275</X>
+			<Y>0.65</Y>
+			<Z>0.25</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.275</X>
+			<Y>0.65</Y>
+			<Z>0.25</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_vehicle_ring_apc_gauss</Name>
+		<_Editor>
+			<Category>Vehicle Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.275</X>
+			<Y>0.65</Y>
+			<Z>0.25</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.275</X>
+			<Y>0.65</Y>
+			<Z>0.25</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_vehicle_ring_scout_gauss</Name>
+		<_Editor>
+			<Category>Vehicle Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.275</X>
+			<Y>0.65</Y>
+			<Z>0.25</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.275</X>
+			<Y>0.65</Y>
+			<Z>0.25</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_vehicle_raider_harpoon</Name>
+		<_Editor>
+			<Category>Vehicle Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.0</X>
+			<Y>0.45</Y>
+			<Z>0.25</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.0</X>
+			<Y>0.45</Y>
+			<Z>0.25</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_vehicle_walker_missilepod</Name>
+		<_Editor>
+			<Category>Vehicle Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.0</X>
+			<Y>0.3</Y>
+			<Z>0.25</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.0</X>
+			<Y>0.3</Y>
+			<Z>0.25</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_vehicle_walker_missilepod2</Name>
+		<_Editor>
+			<Category>Vehicle Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.0</X>
+			<Y>0.3</Y>
+			<Z>0.25</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.0</X>
+			<Y>0.3</Y>
+			<Z>0.25</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_vehicle_mineflinger_TEST</Name>
+		<_Editor>
+			<Category>Vehicle Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.6</X>
+			<Y>0.3</Y>
+			<Z>-5.7</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.0</X>
+			<Y>0.44</Y>
+			<Z>-0.45</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_vehicle_MGNoGunnerPrim</Name>
+		<_Editor>
+			<Category>Vehicle Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.6</X>
+			<Y>0.3</Y>
+			<Z>-5.7</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.0</X>
+			<Y>0.44</Y>
+			<Z>-0.45</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_vehicle_MGNoGunnerSec</Name>
+		<_Editor>
+			<Category>Vehicle Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.6</X>
+			<Y>0.3</Y>
+			<Z>-5.7</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.0</X>
+			<Y>0.44</Y>
+			<Z>-0.45</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_gauss_GC</Name>
+		<_Editor>
+			<Category>Normal Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.0</X>
+			<Y>1.45</Y>
+			<Z>0.0</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.0</X>
+			<Y>1.45</Y>
+			<Z>0.0</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_rocket_guerrilla_GC</Name>
+		<_Editor>
+			<Category>Normal Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.0</X>
+			<Y>1.5</Y>
+			<Z>0.0</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.0</X>
+			<Y>1.5</Y>
+			<Z>0.0</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_machinegun_GC</Name>
+		<_Editor>
+			<Category>Normal Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.0</X>
+			<Y>1.45</Y>
+			<Z>0.0</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.0</X>
+			<Y>1.45</Y>
+			<Z>0.0</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_rocket_guerrilla_inv</Name>
+		<_Editor>
+			<Category>Normal Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.0</X>
+			<Y>1.5</Y>
+			<Z>0.0</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.0</X>
+			<Y>1.5</Y>
+			<Z>0.0</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_vehicle_rover_rocket1</Name>
+		<_Editor>
+			<Category>Vehicle Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.5</X>
+			<Y>0.5</Y>
+			<Z>-5</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.0</X>
+			<Y>0.54</Y>
+			<Z>-0.45</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_vehicle_rover_rocket2</Name>
+		<_Editor>
+			<Category>Vehicle Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0.5</X>
+			<Y>0.5</Y>
+			<Z>-5</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.0</X>
+			<Y>0.54</Y>
+			<Z>-0.45</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	<Turret>
+		<Name>turret_vehicle_ArtGauss</Name>
+		<_Editor>
+			<Category>Vehicle Turrets</Category>
+			</_Editor>
+		<Default_Offset>
+			<X>0</X>
+			<Y>1.25</Y>
+			<Z>0.0</Z>
+			</Default_Offset>
+		<Fine_Aim_Offset>
+			<X>0.0</X>
+			<Y>0.0</Y>
+			<Z>0</Z>
+			</Fine_Aim_Offset>
+		</Turret>
+	</Edit>
