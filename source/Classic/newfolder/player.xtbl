@@ -69,40 +69,40 @@
 <State><ID>crouch walk left</ID><Animation><Filename>plyr_rfl_crchrd_wlk_l.animx</Filename></Animation></State>
 <State><ID>crouch walk right</ID><Animation><Filename>plyr_rfl_crchrd_wlk_r.animx</Filename></Animation></State>
 <State><ID>crouch ready</ID><Animation><Filename>plyr_rfl_crch.animx</Filename></Animation></State>
-<State><ID>stand</ID><Animation><Filename>plyr_sg_aim_std.animx</Filename></Animation></State>
-<State><ID>stand ready</ID><Animation><Filename>plyr_rfl_aim_std.animx</Filename></Animation></State>
+<State><ID>stand</ID><Animation><Filename>plyr_rfl_std.animx</Filename></Animation></State>
+<State><ID>stand ready</ID><Animation><Filename>plyr_rfl_rd_std.animx</Filename></Animation></State>
 <State><ID>stand ready right</ID><Animation><Filename>plyr_rfl_std.animx</Filename></Animation></State>
 <State><ID>stand ready left</ID><Animation><Filename>plyr_rfl_std.animx</Filename></Animation></State>
 <State><ID>crouch</ID><Animation><Filename>plyr_rfl_crch.animx</Filename></Animation></State>
-<State><ID>walk</ID><Animation><Filename>player_move_forward_rfl</Filename></Animation></State>
-<State><ID>walk ready</ID><Animation><Filename>player_move_forward_rfl_rdy</Filename></Animation></State>
-<State><ID>walk ready left</ID><Animation><Filename>player_move_left_rfl_rdy</Filename></Animation></State>
-<State><ID>walk ready right</ID><Animation><Filename>player_move_right_rfl_rdy</Filename></Animation></State>
-<State><ID>walk ready back</ID><Animation><Filename>player_move_back_rfl_rdy</Filename></Animation></State>
-<State><ID>run</ID><Animation><Filename>hvelite_rfl_sprint.animx</Filename></Animation></State>
-<State><ID>run ready</ID><Animation><Filename>hvelite_rfl_sprint.animx</Filename></Animation></State>
-<State><ID>run ready left</ID><Animation><Filename>player_move_left_rfl_rdy</Filename></Animation></State>
-<State><ID>run ready right</ID><Animation><Filename>player_move_right_rfl_rdy</Filename></Animation></State>
-<State><ID>run ready backpedal</ID><Animation><Filename>player_move_back_rfl_rdy</Filename></Animation></State>
+<State><ID>walk</ID><Animation><Filename>plyr_rfl_fnaim_wlk.animx</Filename></Animation></State>
+<State><ID>walk ready</ID><Animation><Filename>plyr_rfl_fnaim_wlk.animx</Filename></Animation></State>
+<State><ID>walk ready left</ID><Animation><Filename>plyr_rfl_fnaim_wlk.animx</Filename></Animation></State>
+<State><ID>walk ready right</ID><Animation><Filename>plyr_rfl_fnaim_wlk.animx</Filename></Animation></State>
+<State><ID>walk ready back</ID><Animation><Filename>plyr_rfl_fnaim_wlk.animx</Filename></Animation></State>
+<State><ID>run</ID><Animation><Filename>plyr_rfl_fnaim_wlk.animx</Filename></Animation></State>
+<State><ID>run ready</ID><Animation><Filename>plyr_rfl_fnaim_wlk.animx</Filename></Animation></State>
+<State><ID>run ready left</ID><Animation><Filename>plyr_rfl_fnaim_wlk.animx</Filename></Animation></State>
+<State><ID>run ready right</ID><Animation><Filename>plyr_rfl_fnaim_wlk.animx</Filename></Animation></State>
+<State><ID>run ready backpedal</ID><Animation><Filename>plyr_rfl_fnaim_wlk.animx</Filename></Animation></State>
 <State><ID>fine aim</ID><Animation><Filename>plyr_rfl_fnaim_aim.animx</Filename></Animation></State>
 <State><ID>crouch run</ID><Animation><Filename>plyr_rfl_crchrd_wlk.animx</Filename></Animation></State>
-<State><ID>run backpedal</ID><Animation><Filename>plyr_rfl_rd_run_bck.animx</Filename></Animation></State>
-<State><ID>run back</ID><Animation><Filename>plyr_rfl_rd_run_bck.animx</Filename></Animation></State>
-<State><ID>run ready back</ID><Animation><Filename>player_move_back_rfl_rdy</Filename></Animation></State>
+<State><ID>run backpedal</ID><Animation><Filename>plyr_rfl_fnaim_wlk.animx</Filename></Animation></State>
+<State><ID>run back</ID><Animation><Filename>plyr_rfl_fnaim_wlk.animx</Filename></Animation></State>
+<State><ID>run ready back</ID><Animation><Filename>plyr_rfl_fnaim_wlk.animx</Filename></Animation></State>
 <State><ID>crouch aim</ID><Animation><Filename>plyr_rfl_aim_crch.animx</Filename></Animation></State>
 <State><ID>crouch wlk aim fwd</ID><Animation><Filename>plyr_rfl_aim_crchwlk.animx</Filename></Animation></State>
 <State><ID>crouch wlk aim back</ID><Animation><Filename>plyr_rfl_aim_crchwlk_bck.animx</Filename></Animation></State>
 <State><ID>crouch wlk aim left</ID><Animation><Filename>plyr_rfl_aim_crchwlk_l.animx</Filename></Animation></State>
 <State><ID>crouch wlk aim right</ID><Animation><Filename>plyr_rfl_aim_crchwlk_r.animx</Filename></Animation></State>
-<State><ID>run aim</ID><Animation><Filename>player_move_forward_rfl_aim</Filename></Animation></State>
-<State><ID>run aim back</ID><Animation><Filename>player_move_back_rfl_aim</Filename></Animation></State>
-<State><ID>run aim left</ID><Animation><Filename>player_move_left_rfl_aim</Filename></Animation></State>
-<State><ID>run aim right</ID><Animation><Filename>player_move_right_rfl_aim</Filename></Animation></State>
+<State><ID>run aim</ID><Animation><Filename>plyr_rfl_fnaim_wlk.animx</Filename></Animation></State>
+<State><ID>run aim back</ID><Animation><Filename>plyr_rfl_fnaim_wlk.animx</Filename></Animation></State>
+<State><ID>run aim left</ID><Animation><Filename>plyr_rfl_fnaim_wlk.animx</Filename></Animation></State>
+<State><ID>run aim right</ID><Animation><Filename>plyr_rfl_fnaim_wlk.animx</Filename></Animation></State>
 <State><ID>stand aim</ID><Animation><Filename>plyr_rfl_aim_std.animx</Filename></Animation></State>
 <State><ID>fine aim walk</ID><Animation><Filename>plyr_rfl_fnaim_wlk.animx</Filename></Animation></State>
-<State><ID>fine aim walk back</ID><Animation><Filename>plyr_rfl_fnaim_wlk_bck.animx</Filename></Animation></State>
-<State><ID>fine aim walk left</ID><Animation><Filename>plyr_rfl_fnaim_wlk_l.animx</Filename></Animation></State>
-<State><ID>fine aim walk right</ID><Animation><Filename>plyr_rfl_fnaim_wlk_r.animx</Filename></Animation></State>
+<State><ID>fine aim walk back</ID><Animation><Filename>plyr_rfl_fnaim_wlk.animx</Filename></Animation></State>
+<State><ID>fine aim walk left</ID><Animation><Filename>plyr_rfl_fnaim_wlk.animx</Filename></Animation></State>
+<State><ID>fine aim walk right</ID><Animation><Filename>plyr_rfl_fnaim_wlk.animx</Filename></Animation></State>
 <State><ID>fine aim crouch</ID><Animation><Filename>plyr_rfl_fnaim_crch.animx</Filename></Animation></State>
 <State><ID>fine aim crouch walk</ID><Animation><Filename>plyr_rfl_fnaim_crchwlk.animx</Filename></Animation></State>
 <State><ID>fine aim crouch walk back</ID><Animation><Filename>plyr_rfl_fnaim_crchwlk_bck.animx</Filename></Animation></State>
@@ -142,7 +142,7 @@
 <State><ID>cover stand left aim</ID><Animation><Filename>plyr_rfl_cvrstd_aim_l.animx</Filename></Animation></State>
 <State><ID>cover stand left aim walk</ID><Animation><Filename>plyr_rfl_cvrstd_aimwlk_l.animx</Filename></Animation></State>
 <State><ID>cover stand left aim walkback</ID><Animation><Filename>plyr_rfl_cvrstd_aimwlk_bckl.animx</Filename></Animation></State>
-<State><ID>sprint</ID><Animation><Filename>hvelite_rfl_sprint.animx</Filename></Animation></State>
+<State><ID>sprint</ID><Animation><Filename>plyr_rfl_fnaim_wlk.animx</Filename></Animation></State>
 <State><ID>cover stand right walk animx</ID><Animation><Filename>plyr_rfl_cvrstd_wlk_r.animx</Filename></Animation></State>
 <State><ID>cover stand left walk animx</ID><Animation><Filename>plyr_rfl_cvrstd_wlk_l.animx</Filename></Animation></State>
 <State><ID>cover crouch left aim</ID><Animation><Filename>plyr_rfl_cvrcrch_aim_l.animx</Filename></Animation></State>
@@ -189,7 +189,7 @@
 </States><Actions>
 <Action><ID>crouch reload</ID><Animation><Filename>plyr_rfl_rld.animx</Filename></Animation></Action>
 <Action><ID>crouch walk reload</ID><Animation><Filename>plyr_rfl_rld.animx</Filename></Animation></Action>
-<Action><ID>melee</ID><Animation><Filename>plyr_hmr_mele.animx</Filename></Animation></Action>
+<Action><ID>melee</ID><Animation><Filename>plyr_rfl_ml.animx</Filename></Animation></Action>
 <Action><ID>reload</ID><Animation><Filename>plyr_rfl_rld.animx</Filename></Animation></Action>
 <Action><ID>walk reload</ID><Animation><Filename>plyr_rfl_rld.animx</Filename></Animation></Action>
 <Action><ID>run reload</ID><Animation><Filename>plyr_rfl_rld.animx</Filename></Animation></Action>
@@ -204,7 +204,7 @@
 <Action><ID>crouch walk fire right</ID><Animation><Filename>plyr_rfl_crchfire_r.animx</Filename></Animation></Action>
 <Action><ID>crouch walk fire back</ID><Animation><Filename>plyr_rfl_crchfire_fwd.animx</Filename></Animation></Action>
 <Action><ID>walk fire</ID><Animation><Filename>plyr_rfl_rd_wlkfire.animx</Filename></Animation></Action>
-<Action><ID>run fire</ID><Animation><Filename>plyr_rfl_runfire.animx</Filename></Animation></Action>
+<Action><ID>run fire</ID><Animation><Filename>plyr_rfl_rd_wlkfire.animx</Filename></Animation></Action>
 <Action><ID>fine aim in</ID><Animation><Filename>plyr_rfl_fnaim_aim.animx</Filename></Animation></Action>
 <Action><ID>fine aim out</ID><Animation><Filename>plyr_rfl_fnaim_aim.animx</Filename></Animation></Action>
 <Action><ID>crouch unequip</ID><Animation><Filename>plyr_rfl_hlstr.animx</Filename></Animation></Action>
@@ -216,13 +216,13 @@
 <Action><ID>crouch ready shuffle right</ID><Animation><Filename>plyr_rfl_crchrd_trnsttle_r.animx</Filename></Animation></Action>
 <Action><ID>crouch shuffle left</ID><Animation><Filename>plyr_rfl_crchrd_trnsttle_l.animx</Filename></Animation></Action>
 <Action><ID>crouch shuffle right</ID><Animation><Filename>plyr_rfl_crchrd_trnsttle_r.animx</Filename></Animation></Action>
-<Action><ID>run back to left</ID><Animation><Filename>plyr_rfl_rd_run_bck_l.animx</Filename></Animation></Action>
-<Action><ID>run fire left</ID><Animation><Filename>plyr_rfl_runfire_l.animx</Filename></Animation></Action>
-<Action><ID>run fire back</ID><Animation><Filename>plyr_rfl_runfire_bck.animx</Filename></Animation></Action>
-<Action><ID>run fire right</ID><Animation><Filename>plyr_rfl_runfire_r.animx</Filename></Animation></Action>
-<Action><ID>walk fire back</ID><Animation><Filename>plyr_rfl_wlkfire_bck.animx</Filename></Animation></Action>
-<Action><ID>walk fire left</ID><Animation><Filename>plyr_rfl_wlkfire_l.animx</Filename></Animation></Action>
-<Action><ID>walk fire right</ID><Animation><Filename>plyr_rfl_wlkfire_r.animx</Filename></Animation></Action>
+<Action><ID>run back to left</ID><Animation><Filename>plyr_rfl_fnaim_wlk.animx</Filename></Animation></Action>
+<Action><ID>run fire left</ID><Animation><Filename>plyr_rfl_rd_wlkfire.animx</Filename></Animation></Action>
+<Action><ID>run fire back</ID><Animation><Filename>plyr_rfl_rd_wlkfire.animx</Filename></Animation></Action>
+<Action><ID>run fire right</ID><Animation><Filename>plyr_rfl_rd_wlkfire.animx</Filename></Animation></Action>
+<Action><ID>walk fire back</ID><Animation><Filename>plyr_rfl_rd_wlkfire.animx</Filename></Animation></Action>
+<Action><ID>walk fire left</ID><Animation><Filename>plyr_rfl_rd_wlkfire.animx</Filename></Animation></Action>
+<Action><ID>walk fire right</ID><Animation><Filename>plyr_rfl_rd_wlkfire.animx</Filename></Animation></Action>
 <Action><ID>fine aim crouch fire</ID><Animation><Filename>plyr_rfl_fnaim_crchfire.animx</Filename></Animation></Action>
 <Action><ID>fine aim crouch fire back</ID><Animation><Filename>plyr_rfl_fnaim_crchfire.animx</Filename></Animation></Action>
 <Action><ID>fine aim crouch fire left</ID><Animation><Filename>plyr_rfl_fnaim_crchfire_r.animx</Filename></Animation></Action>
@@ -282,7 +282,7 @@
 <State><ID>crouch walk right</ID><Animation><Filename>plyr_rev_crchrd_wlk_r.animx</Filename></Animation></State>
 <State><ID>crouch ready</ID><Animation><Filename>plyr_rev_crchrd.animx</Filename></Animation></State>
 <State><ID>stand</ID><Animation><Filename>plyr_rev_std.animx</Filename></Animation></State>
-<State><ID>stand ready</ID><Animation><Filename>plyr_rev_aim_std.animx</Filename></Animation></State>
+<State><ID>stand ready</ID><Animation><Filename>plyr_rev_rd_std.animx</Filename></Animation></State>
 <State><ID>stand ready right</ID><Animation><Filename>plyr_rev_std.animx</Filename></Animation></State>
 <State><ID>stand ready left</ID><Animation><Filename>plyr_rev_std.animx</Filename></Animation></State>
 <State><ID>crouch</ID><Animation><Filename>plyr_rev_crchrd.animx</Filename></Animation></State>
@@ -291,8 +291,8 @@
 <State><ID>walk ready left</ID><Animation><Filename>player_move_left_rev_rdy</Filename></Animation></State>
 <State><ID>walk ready right</ID><Animation><Filename>player_move_right_rev_rdy</Filename></Animation></State>
 <State><ID>walk ready back</ID><Animation><Filename>player_move_back_rev_rdy</Filename></Animation></State>
-<State><ID>run</ID><Animation><Filename>male_rev_noncombat_run.animx</Filename></Animation></State>
-<State><ID>run ready</ID><Animation><Filename>male_rev_noncombat_run.animx</Filename></Animation></State>
+<State><ID>run</ID><Animation><Filename>player_move_forward_rev</Filename></Animation></State>
+<State><ID>run ready</ID><Animation><Filename>player_move_forward_rev_rdy</Filename></Animation></State>
 <State><ID>run ready left</ID><Animation><Filename>player_move_left_rev_rdy</Filename></Animation></State>
 <State><ID>run ready right</ID><Animation><Filename>player_move_right_rev_rdy</Filename></Animation></State>
 <State><ID>run ready backpedal</ID><Animation><Filename>player_move_back_rev_rdy</Filename></Animation></State>
@@ -356,7 +356,7 @@
 <State><ID>cover stand left aim</ID><Animation><Filename>plyr_rev_cvrstd_aim_l.animx</Filename></Animation></State>
 <State><ID>cover stand left aim walk</ID><Animation><Filename>plyr_rev_cvrstd_aimwlk_l.animx</Filename></Animation></State>
 <State><ID>cover stand left aim walkback</ID><Animation><Filename>plyr_rev_cvrstd_aimwlk_bckl.animx</Filename></Animation></State>
-<State><ID>aim down</ID><Animation><Filename>plyr_rev_aim_run.animx</Filename></Animation></State>
+<State><ID>aim down</ID><Animation><Filename>plyr_rev_jog.animx</Filename></Animation></State>
 <State><ID>back liedown</ID><Animation><Filename>plyr_rev_rd_run.animx</Filename></Animation></State>
 <State><ID>c</ID><Animation><Filename>plyr_rev_rd_run_l.animx</Filename></Animation></State>
 <State><ID>d</ID><Animation><Filename>plyr_rev_rd_run_r.animx</Filename></Animation></State>
@@ -374,7 +374,7 @@
 <State><ID>n</ID><Animation><Filename>plyr_rev_aim_wlk_bck.animx</Filename></Animation></State>
 <State><ID>b</ID><Animation><Filename>plyr_rev_aim_wlk_l.animx</Filename></Animation></State>
 <State><ID>v</ID><Animation><Filename>plyr_rev_aim_wlk_r.animx</Filename></Animation></State>
-<State><ID>sprint</ID><Animation><Filename>male_rev_noncombat_run.animx</Filename></Animation></State>
+<State><ID>sprint</ID><Animation><Filename>plyr_rev_spnt.animx</Filename></Animation></State>
 <State><ID>walk ready backpedal</ID><Animation><Filename>player_move_back_rev_rdy</Filename></Animation></State>
 <State><ID>cover crouch left aim</ID><Animation><Filename>plyr_rev_cvrcrch_aim_l.animx</Filename></Animation></State>
 <State><ID>cover crouch left aim walk</ID><Animation><Filename>plyr_rev_cvrcrch_aimwlk_l.animx</Filename></Animation></State>
@@ -406,7 +406,7 @@
 </States><Actions>
 <Action><ID>crouch reload</ID><Animation><Filename>plyr_rev_rld.animx</Filename></Animation></Action>
 <Action><ID>crouch walk reload</ID><Animation><Filename>plyr_rev_rld.animx</Filename></Animation></Action>
-<Action><ID>melee</ID><Animation><Filename>plyr_rmtchrg_mele.animx</Filename></Animation></Action>
+<Action><ID>melee</ID><Animation><Filename>plyr_rev_mele.animx</Filename></Animation></Action>
 <Action><ID>reload</ID><Animation><Filename>plyr_rev_rld.animx</Filename></Animation></Action>
 <Action><ID>walk reload</ID><Animation><Filename>plyr_rev_rld.animx</Filename></Animation></Action>
 <Action><ID>run reload</ID><Animation><Filename>plyr_rev_rld.animx</Filename></Animation></Action>
@@ -500,7 +500,7 @@
 <State><ID>crouch wlk rdy back</ID><Animation><Filename>plyr_rpg_crchrd_wlk_bck.animx</Filename></Animation></State>
 <State><ID>crouch wlk rdy left</ID><Animation><Filename>plyr_rpg_crchrd_aimwlk_l.animx</Filename></Animation></State>
 <State><ID>crouch wlk rdy right</ID><Animation><Filename>plyr_rpg_crchrd_wlk_r.animx</Filename></Animation></State>
-<State><ID>stand</ID><Animation><Filename>plyr_rpg_rd_std.animx</Filename></Animation></State>
+<State><ID>stand</ID><Animation><Filename>plyr_rpg_std.animx</Filename></Animation></State>
 <State><ID>stand ready</ID><Animation><Filename>plyr_rpg_rd_std.animx</Filename></Animation></State>
 <State><ID>stand ready left</ID><Animation><Filename>plyr_rpg_rd_std.animx</Filename></Animation></State>
 <State><ID>stand ready right</ID><Animation><Filename>plyr_rpg_rd_std.animx</Filename></Animation></State>
@@ -509,8 +509,8 @@
 <State><ID>walk ready left</ID><Animation><Filename>player_move_left_rpg_rdy</Filename></Animation></State>
 <State><ID>walk ready right</ID><Animation><Filename>player_move_right_rpg_rdy</Filename></Animation></State>
 <State><ID>walk ready back</ID><Animation><Filename>player_move_back_rpg_rdy</Filename></Animation></State>
-<State><ID>run</ID><Animation><Filename>hvelite_rfl_sprint.animx</Filename></Animation></State>
-<State><ID>run ready</ID><Animation><Filename>hvelite_rfl_sprint.animx</Filename></Animation></State>
+<State><ID>run</ID><Animation><Filename>player_move_forward_rpg</Filename></Animation></State>
+<State><ID>run ready</ID><Animation><Filename>player_move_forward_rpg_rdy</Filename></Animation></State>
 <State><ID>run ready left</ID><Animation><Filename>player_move_left_rpg_rdy</Filename></Animation></State>
 <State><ID>run ready right</ID><Animation><Filename>player_move_right_rpg_rdy</Filename></Animation></State>
 <State><ID>run ready backpedal</ID><Animation><Filename>player_move_back_rpg_rdy</Filename></Animation></State>
@@ -521,7 +521,7 @@
 <State><ID>run ready back</ID><Animation><Filename>player_move_back_rpg_rdy</Filename></Animation></State>
 <State><ID>run jump start</ID><Animation><Filename>plyr_rpg_jmprun.animx</Filename></Animation></State>
 <State><ID>stand jump start</ID><Animation><Filename>plyr_rpg_jmp.animx</Filename></Animation></State>
-<State><ID>fine aim walk</ID><Animation><Filename>hvelite_rfl_sprint.animx</Filename></Animation></State>
+<State><ID>fine aim walk</ID><Animation><Filename>plyr_rpg_rd_wlk.animx</Filename></Animation></State>
 <State><ID>fine aim walk back</ID><Animation><Filename>plyr_rpg_fnaim_wlk_bck.animx</Filename></Animation></State>
 <State><ID>fine aim walk left</ID><Animation><Filename>plyr_rpg_rd_wlk_l.animx</Filename></Animation></State>
 <State><ID>fine aim walk right</ID><Animation><Filename>plyr_rpg_rd_wlk_r.animx</Filename></Animation></State>
@@ -553,10 +553,10 @@
 <State><ID>cover stand left aim</ID><Animation><Filename>plyr_rpg_cvrstd_aim_l.animx</Filename></Animation></State>
 <State><ID>cover stand left aim walk</ID><Animation><Filename>plyr_rpg_cvrstd_aimwlk_l.animx</Filename></Animation></State>
 <State><ID>cover stand left aim walkback</ID><Animation><Filename>plyr_rpg_cvrstd_aimwlk_bckl.animx</Filename></Animation></State>
-<State><ID>jog anim</ID><Animation><Filename>plyr_rpg_rd_jog.animx</Filename></Animation></State>
+<State><ID>jog anim</ID><Animation><Filename>plyr_rpg_jog.animx</Filename></Animation></State>
 <State><ID>run anim</ID><Animation><Filename>plyr_rpg_run.animx</Filename></Animation></State>
 <State><ID>walk anim</ID><Animation><Filename>plyr_rpg_wlk.animx</Filename></Animation></State>
-<State><ID>sprint</ID><Animation><Filename>hvelite_rfl_sprint.animx</Filename></Animation></State>
+<State><ID>sprint</ID><Animation><Filename>plyr_rpg_spnt.animx</Filename></Animation></State>
 <State><ID>walk ready backpedal</ID><Animation><Filename>player_move_left_rpg_rdy</Filename></Animation></State>
 <State><ID>anim 01</ID><Animation><Filename>plyr_rpg_cvrcrch_aimsht_r.animx</Filename></Animation></State>
 <State><ID>anim 02</ID><Animation><Filename>plyr_rpg_cvrcrch_aimwlk_bckl.animx</Filename></Animation></State>
@@ -635,8 +635,8 @@
 <Action><ID>crouch shuffle right 180</ID><Animation><Filename>plyr_rpg_crch_trnsttler_180.animx</Filename></Animation></Action>
 </Actions></Group>
 <Group><group>remote charge</group><States>
-<State><ID>run</ID><Animation><Filename>plyr_rmtchrg_ncmbt_jog.animx</Filename></Animation></State>
-<State><ID>run ready</ID><Animation><Filename>plyr_rmtchrg_ncmbt_jog.animx</Filename></Animation></State>
+<State><ID>run</ID><Animation><Filename>player_move_forward_rmtchrg</Filename></Animation></State>
+<State><ID>run ready</ID><Animation><Filename>player_move_forward_rmtchrg_rdy</Filename></Animation></State>
 <State><ID>run ready backpedal</ID><Animation><Filename>player_move_back_rmtchrg_rdy</Filename></Animation></State>
 <State><ID>run ready left</ID><Animation><Filename>player_move_left_rmtchrg_rdy</Filename></Animation></State>
 <State><ID>run ready right</ID><Animation><Filename>player_move_right_rmtchrg_rdy</Filename></Animation></State>
@@ -686,7 +686,7 @@
 <State><ID>cover stand left aim</ID><Animation><Filename>plyr_rmtchrg_cvrstd_aim_l.animx</Filename></Animation></State>
 <State><ID>cover stand left aim walk</ID><Animation><Filename>plyr_rmtchrg_cvrstd_aimwlk_l.animx</Filename></Animation></State>
 <State><ID>cover stand left aim walkback</ID><Animation><Filename>plyr_rmtchrg_cvrstd_aimwlk_bckl.animx</Filename></Animation></State>
-<State><ID>sprint</ID><Animation><Filename>plyr_rmtchrg_ncmbt_jog.animx</Filename></Animation></State>
+<State><ID>sprint</ID><Animation><Filename>plyr_rmtchrg_spnt.animx</Filename></Animation></State>
 <State><ID>walk ready backpedal</ID><Animation><Filename>player_move_back_rmtchrg_rdy</Filename></Animation></State>
 <State><ID>cover crouch left aim</ID><Animation><Filename>plyr_rmtchrg_cvrcrchl_aim.animx</Filename></Animation></State>
 <State><ID>cover crouch left aim walk</ID><Animation><Filename>plyr_rmtchrg_cvrcrchl_aimwlk.animx</Filename></Animation></State>
@@ -715,7 +715,7 @@
 <State><ID>anim 19</ID><Animation><Filename>plyr_rmtchrg_cvrstd_run_r.animx</Filename></Animation></State>
 <State><ID>anim 20</ID><Animation><Filename>plyr_rmtchrg_cvrstd_wlk_l.animx</Filename></Animation></State>
 <State><ID>anim 21</ID><Animation><Filename>plyr_rmtchrg_cvrstd_wlk_r.animx</Filename></Animation></State>
-<State><ID>run no ammo</ID><Animation><Filename>plyr_rmtchrg_ncmbt_jog.animx</Filename></Animation></State>
+<State><ID>run no ammo</ID><Animation><Filename>player_move_forward_rmtchrg_noammo</Filename></Animation></State>
 <State><ID>crouch no ammo</ID><Animation><Filename>plyr_rmtchrg_nrd_crch.animx</Filename></Animation></State>
 <State><ID>crouch walk no ammo</ID><Animation><Filename>plyr_rmtchrg_nrd_crch_wlk.animx</Filename></Animation></State>
 <State><ID>stand no ammo</ID><Animation><Filename>plyr_rmtchrg_nrd_std.animx</Filename></Animation></State>
@@ -733,7 +733,7 @@
 <Action><ID>walk fire</ID><Animation><Filename>plyr_rmtchrg_dtnt.animx</Filename></Animation></Action>
 <Action><ID>walk fire left</ID><Animation><Filename>plyr_rmtchrg_dtnt.animx</Filename></Animation></Action>
 <Action><ID>walk fire right</ID><Animation><Filename>plyr_rmtchrg_dtnt.animx</Filename></Animation></Action>
-<Action><ID>throw item</ID><Animation><Filename>plyr_rmtchrg_thrw_fwd.animx</Filename></Animation></Action>
+<Action><ID>throw item</ID><Animation><Filename>plyr_rmtchrg_thrw.animx</Filename></Animation></Action>
 <Action><ID>place item</ID><Animation><Filename>plyr_rmtchrg_plc.animx</Filename></Animation></Action>
 <Action><ID>equip</ID><Animation><Filename>plyr_rmtchrg_drw.animx</Filename></Animation></Action>
 <Action><ID>unequip</ID><Animation><Filename>plyr_rmtchrg_hlstr.animx</Filename></Animation></Action>
@@ -772,8 +772,8 @@
 <Action><ID>cover equip stand right</ID><Animation><Filename>plyr_rmtchrg_cvrcrch_drw_r.animx</Filename></Animation></Action>
 <Action><ID>cover equip crouch left</ID><Animation><Filename>plyr_rmtchrg_cvrstd_drw_l.animx</Filename></Animation></Action>
 <Action><ID>cover equip crouch right</ID><Animation><Filename>plyr_rmtchrg_cvrstd_drw_r.animx</Filename></Animation></Action>
-<Action><ID>melee2</ID><Animation><Filename>plyr_rmtchrg_mele.animx</Filename></Animation></Action>
-<Action><ID>crouch throw</ID><Animation><Filename>plyr_rmtchrg_thrw_fwd.animx</Filename></Animation></Action>
+<Action><ID>melee2</ID><Animation><Filename>plyr_rmtchrg_mele_b.animx</Filename></Animation></Action>
+<Action><ID>crouch throw</ID><Animation><Filename>plyr_rmtchrg_crch_thrw.animx</Filename></Animation></Action>
 <Action><ID>cover crouch exit dive left</ID><Animation><Filename>plyr_rmtchrg_cvrcrchl_extqck_up.animx</Filename></Animation></Action>
 <Action><ID>crouch ready shuffle left</ID><Animation><Filename>plyr_rmtchrg_crch_trnsttlel_90.animx</Filename></Animation></Action>
 <Action><ID>crouch ready shuffle right</ID><Animation><Filename>plyr_rmtchrg_cvr_trnsttler_90.animx</Filename></Animation></Action>
@@ -783,8 +783,8 @@
 <Action><ID>crouch shuffle right 180</ID><Animation><Filename>plyr_rmtchrg_crch_trnsttler_180.animx</Filename></Animation></Action>
 </Actions></Group>
 <Group><group>Hammer</group><States>
-<State><ID>run</ID><Animation><Filename>plyr_hmr_jog.animx</Filename></Animation></State>
-<State><ID>run ready</ID><Animation><Filename>plyr_hmr_jog.animx</Filename></Animation></State>
+<State><ID>run</ID><Animation><Filename>player_move_forward_hmr</Filename></Animation></State>
+<State><ID>run ready</ID><Animation><Filename>player_move_forward_hmr_rdy</Filename></Animation></State>
 <State><ID>run ready backpedal</ID><Animation><Filename>player_move_back_hmr_rdy</Filename></Animation></State>
 <State><ID>run ready left</ID><Animation><Filename>player_move_left_hmr_rdy</Filename></Animation></State>
 <State><ID>run ready right</ID><Animation><Filename>player_move_right_hmr_rdy</Filename></Animation></State>
@@ -834,7 +834,7 @@
 <State><ID>cover stand left aim walkback</ID><Animation><Filename>plyr_hmr_cvrstd_aimwlk_bckl.animx</Filename></Animation></State>
 <State><ID>melee fall</ID><Animation><Filename>plyr_hmr_jmp_inair.animx</Filename></Animation></State>
 <State><ID>stand title screen</ID><Animation><Filename>plyr_hmr_std_intrface.animx</Filename></Animation></State>
-<State><ID>sprint</ID><Animation><Filename>plyr_hmr_jog.animx</Filename></Animation></State>
+<State><ID>sprint</ID><Animation><Filename>plyr_hmr_spnt.animx</Filename></Animation></State>
 <State><ID>walk ready backpedal</ID><Animation><Filename>player_move_back_hmr_rdy</Filename></Animation></State>
 <State><ID>anim 01</ID><Animation><Filename>plyr_hmr_cvrcrch_dve_fwd.animx</Filename></Animation></State>
 <State><ID>anim 02</ID><Animation><Filename>plyr_hmr_cvrcrch_exit_r.animx</Filename></Animation></State>
@@ -954,8 +954,8 @@
 <State><ID>walk ready left</ID><Animation><Filename>player_move_left_sg_rdy</Filename></Animation></State>
 <State><ID>walk ready right</ID><Animation><Filename>player_move_right_sg_rdy</Filename></Animation></State>
 <State><ID>walk ready back</ID><Animation><Filename>player_move_back_sg_rdy</Filename></Animation></State>
-<State><ID>run</ID><Animation><Filename>hvelite_rfl_sprint.animx</Filename></Animation></State>
-<State><ID>run ready</ID><Animation><Filename>hvelite_rfl_sprint.animx</Filename></Animation></State>
+<State><ID>run</ID><Animation><Filename>player_move_forward_sg</Filename></Animation></State>
+<State><ID>run ready</ID><Animation><Filename>player_move_forward_sg_rdy</Filename></Animation></State>
 <State><ID>run ready left</ID><Animation><Filename>player_move_left_sg_rdy</Filename></Animation></State>
 <State><ID>run ready right</ID><Animation><Filename>player_move_right_sg_rdy</Filename></Animation></State>
 <State><ID>run ready backpedal</ID><Animation><Filename>player_move_back_sg_rdy</Filename></Animation></State>
@@ -1017,7 +1017,7 @@
 <State><ID>cover stand left aim</ID><Animation><Filename>plyr_sg_cvrstd_aim_l.animx</Filename></Animation></State>
 <State><ID>cover stand left aim walk</ID><Animation><Filename>plyr_sg_cvrstd_aimwlk_l.animx</Filename></Animation></State>
 <State><ID>cover stand left aim walkback</ID><Animation><Filename>plyr_sg_cvrstd_aimwlk_bckl.animx</Filename></Animation></State>
-<State><ID>sprint</ID><Animation><Filename>hvelite_rfl_sprint.animx</Filename></Animation></State>
+<State><ID>sprint</ID><Animation><Filename>plyr_sg_spnt.animx</Filename></Animation></State>
 <State><ID>walk ready backpedal</ID><Animation><Filename>player_move_back_sg_rdy</Filename></Animation></State>
 <State><ID>cover crouch blind left high</ID><Animation><Filename>plyr_sg_cvrcrch_bflu_l.animx</Filename></Animation></State>
 <State><ID>cover crouch blind right high</ID><Animation><Filename>plyr_sg_cvrcrch_bflu_r.animx</Filename></Animation></State>
@@ -1046,8 +1046,8 @@
 <State><ID>anim 23</ID><Animation><Filename>plyr_sg_cvrstd_wlk_r.animx</Filename></Animation></State>
 <State><ID>anim 24</ID><Animation><Filename>plyr_sg_cvrstd_wlk_l.animx</Filename></Animation></State>
 </States><Actions>
-<Action><ID>melee</ID><Animation><Filename>plyr_hmr_mele.animx</Filename></Animation></Action>
-<Action><ID>melee moving</ID><Animation><Filename>plyr_hmr_mele.animx</Filename></Animation></Action>
+<Action><ID>melee</ID><Animation><Filename>plyr_sg_mele.animx</Filename></Animation></Action>
+<Action><ID>melee moving</ID><Animation><Filename>plyr_sg_mele.animx</Filename></Animation></Action>
 <Action><ID>equip</ID><Animation><Filename>plyr_rfl_drw.animx</Filename></Animation></Action>
 <Action><ID>unequip</ID><Animation><Filename>plyr_rfl_hlstr.animx</Filename></Animation></Action>
 <Action><ID>move equip</ID><Animation><Filename>plyr_rfl_drw.animx</Filename></Animation></Action>
@@ -1272,8 +1272,8 @@
 <State><ID>crouch walk left</ID><Animation><Filename>plyr_snpr_crch_wlk_l.animx</Filename></Animation></State>
 <State><ID>crouch walk right</ID><Animation><Filename>plyr_snpr_crch_wlk_r.animx</Filename></Animation></State>
 <State><ID>crouch ready</ID><Animation><Filename>plyr_snpr_crch.animx</Filename></Animation></State>
-<State><ID>stand</ID><Animation><Filename>plyr_sg_aim_std.animx</Filename></Animation></State>
-<State><ID>stand ready</ID><Animation><Filename>plyr_snpr_aim_std.animx</Filename></Animation></State>
+<State><ID>stand</ID><Animation><Filename>plyr_snpr_std.animx</Filename></Animation></State>
+<State><ID>stand ready</ID><Animation><Filename>plyr_snpr_rd_std.animx</Filename></Animation></State>
 <State><ID>stand ready right</ID><Animation><Filename>plyr_snpr_rd_std.animx</Filename></Animation></State>
 <State><ID>stand ready left</ID><Animation><Filename>plyr_snpr_rd_std.animx</Filename></Animation></State>
 <State><ID>crouch</ID><Animation><Filename>plyr_snpr_crch.animx</Filename></Animation></State>
@@ -1282,8 +1282,8 @@
 <State><ID>walk ready left</ID><Animation><Filename>player_move_left_snpr_rdy</Filename></Animation></State>
 <State><ID>walk ready right</ID><Animation><Filename>player_move_right_snpr_rdy</Filename></Animation></State>
 <State><ID>walk ready back</ID><Animation><Filename>plyr_snpr_rd_wlk_bck.animx</Filename></Animation></State>
-<State><ID>run</ID><Animation><Filename>hvelite_rfl_sprint.animx</Filename></Animation></State>
-<State><ID>run ready</ID><Animation><Filename>hvelite_rfl_sprint.animx</Filename></Animation></State>
+<State><ID>run</ID><Animation><Filename>player_move_forward_snpr</Filename></Animation></State>
+<State><ID>run ready</ID><Animation><Filename>player_move_forward_snpr_rdy</Filename></Animation></State>
 <State><ID>run ready left</ID><Animation><Filename>player_move_left_snpr_rdy</Filename></Animation></State>
 <State><ID>run ready right</ID><Animation><Filename>player_move_right_snpr_rdy</Filename></Animation></State>
 <State><ID>run ready backpedal</ID><Animation><Filename>player_move_back_snpr_rdy</Filename></Animation></State>
@@ -1344,7 +1344,7 @@
 <State><ID>cover stand left aim</ID><Animation><Filename>plyr_snpr_cvrstd_aim_l.animx</Filename></Animation></State>
 <State><ID>cover stand left aim walk</ID><Animation><Filename>plyr_snpr_cvrstd_aimrun_l.animx</Filename></Animation></State>
 <State><ID>cover stand left aim walkback</ID><Animation><Filename>plyr_snpr_cvrstd_aimrun_lftbk.animx</Filename></Animation></State>
-<State><ID>sprint</ID><Animation><Filename>hvelite_rfl_sprint.animx</Filename></Animation></State>
+<State><ID>sprint</ID><Animation><Filename>plyr_snpr_spnt.animx</Filename></Animation></State>
 <State><ID>walk ready backpedal</ID><Animation><Filename>plyr_snpr_rd_wlk_bck.animx</Filename></Animation></State>
 <State><ID>cover stand left blind idle</ID><Animation><Filename>plyr_snpr_cvrstd_blndfr_idle_l.animx</Filename></Animation></State>
 <State><ID>anim 01</ID><Animation><Filename>plyr_snpr_cvrcrch_lnin_idle_l.animx</Filename></Animation></State>
@@ -1374,7 +1374,7 @@
 </States><Actions>
 <Action><ID>crouch reload</ID><Animation><Filename>plyr_rfl_rld.animx</Filename></Animation></Action>
 <Action><ID>crouch walk reload</ID><Animation><Filename>plyr_rfl_rld.animx</Filename></Animation></Action>
-<Action><ID>melee</ID><Animation><Filename>plyr_hmr_mele.animx</Filename></Animation></Action>
+<Action><ID>melee</ID><Animation><Filename>plyr_rfl_melee.animx</Filename></Animation></Action>
 <Action><ID>reload</ID><Animation><Filename>plyr_snpr_rd_rld.animx</Filename></Animation></Action>
 <Action><ID>walk reload</ID><Animation><Filename>plyr_snpr_rd_rld.animx</Filename></Animation></Action>
 <Action><ID>run reload</ID><Animation><Filename>plyr_snpr_rd_rld.animx</Filename></Animation></Action>
@@ -1462,8 +1462,8 @@
 <State><ID>crouch walk left</ID><Animation><Filename>plyr_rail_crch_wlk_l.animx</Filename></Animation></State>
 <State><ID>crouch walk right</ID><Animation><Filename>plyr_rail_crch_wlk_r.animx</Filename></Animation></State>
 <State><ID>crouch ready</ID><Animation><Filename>plyr_rail_crch.animx</Filename></Animation></State>
-<State><ID>stand</ID><Animation><Filename>plyr_sg_aim_std.animx</Filename></Animation></State>
-<State><ID>stand ready</ID><Animation><Filename>plyr_rail_aim_std.animx</Filename></Animation></State>
+<State><ID>stand</ID><Animation><Filename>plyr_rail_std.animx</Filename></Animation></State>
+<State><ID>stand ready</ID><Animation><Filename>plyr_rail_rd_std.animx</Filename></Animation></State>
 <State><ID>stand ready right</ID><Animation><Filename>plyr_rail_rd_std.animx</Filename></Animation></State>
 <State><ID>stand ready left</ID><Animation><Filename>plyr_rail_rd_std.animx</Filename></Animation></State>
 <State><ID>crouch</ID><Animation><Filename>plyr_rail_crch.animx</Filename></Animation></State>
@@ -1472,8 +1472,8 @@
 <State><ID>walk ready left</ID><Animation><Filename>player_move_left_rail_rdy</Filename></Animation></State>
 <State><ID>walk ready right</ID><Animation><Filename>player_move_right_rail_rdy</Filename></Animation></State>
 <State><ID>walk ready back</ID><Animation><Filename>plyr_rail_rd_wlk_bck.animx</Filename></Animation></State>
-<State><ID>run</ID><Animation><Filename>hvelite_rfl_sprint.animx</Filename></Animation></State>
-<State><ID>run ready</ID><Animation><Filename>hvelite_rfl_sprint.animx</Filename></Animation></State>
+<State><ID>run</ID><Animation><Filename>player_move_forward_rail</Filename></Animation></State>
+<State><ID>run ready</ID><Animation><Filename>player_move_forward_rail_rdy</Filename></Animation></State>
 <State><ID>run ready left</ID><Animation><Filename>player_move_left_rail_rdy</Filename></Animation></State>
 <State><ID>run ready right</ID><Animation><Filename>player_move_right_rail_rdy</Filename></Animation></State>
 <State><ID>run ready backpedal</ID><Animation><Filename>player_move_back_rail_rdy</Filename></Animation></State>
@@ -1529,7 +1529,7 @@
 <State><ID>calm fall run state</ID><Animation><Filename>plyr_rfl_jmprun_air.animx</Filename></Animation></State>
 <State><ID>stand jump start</ID><Animation><Filename>plyr_rail_jmp.animx</Filename></Animation></State>
 <State><ID>calm fall state</ID><Animation><Filename>plyr_rail_jmp_inair.animx</Filename></Animation></State>
-<State><ID>sprint</ID><Animation><Filename>hvelite_rfl_sprint.animx</Filename></Animation></State>
+<State><ID>sprint</ID><Animation><Filename>plyr_rail_spnt.animx</Filename></Animation></State>
 <State><ID>walk ready backpedal</ID><Animation><Filename>plyr_rail_rd_wlk_bck.animx</Filename></Animation></State>
 <State><ID>anim 01</ID><Animation><Filename>plyr_rail_cvrcrch_lnhi_idle_l.animx</Filename></Animation></State>
 <State><ID>anim 02</ID><Animation><Filename>plyr_rail_cvrcrch_lnhi_idle_r.animx</Filename></Animation></State>
@@ -1561,7 +1561,7 @@
 </States><Actions>
 <Action><ID>crouch reload</ID><Animation><Filename>plyr_rfl_rld.animx</Filename></Animation></Action>
 <Action><ID>crouch walk reload</ID><Animation><Filename>plyr_rfl_rld.animx</Filename></Animation></Action>
-<Action><ID>melee</ID><Animation><Filename>plyr_hmr_mele.animx</Filename></Animation></Action>
+<Action><ID>melee</ID><Animation><Filename>plyr_rfl_melee.animx</Filename></Animation></Action>
 <Action><ID>equip</ID><Animation><Filename>plyr_rfl_drw.animx</Filename></Animation></Action>
 <Action><ID>unequip</ID><Animation><Filename>plyr_rfl_hlstr.animx</Filename></Animation></Action>
 <Action><ID>move equip</ID><Animation><Filename>plyr_rfl_drw.animx</Filename></Animation></Action>
@@ -1633,12 +1633,12 @@
 <Action><ID>cover equip stand right</ID><Animation><Filename>plyr_rfl_drw.animx</Filename></Animation></Action>
 </Actions></Group>
 <Group><group>Nano</group><States>
-<State><ID>stand</ID><Animation><Filename>plyr_sg_aim_std.animx</Filename></Animation></State>
-<State><ID>stand ready</ID><Animation><Filename>plyr_nano_aim_std.animx</Filename></Animation></State>
+<State><ID>stand</ID><Animation><Filename>plyr_nano_std.animx</Filename></Animation></State>
+<State><ID>stand ready</ID><Animation><Filename>plyr_nano_rd_std.animx</Filename></Animation></State>
 <State><ID>stand ready right</ID><Animation><Filename>plyr_nano_rd_std.animx</Filename></Animation></State>
 <State><ID>stand ready left</ID><Animation><Filename>plyr_nano_rd_std.animx</Filename></Animation></State>
-<State><ID>stand</ID><Animation><Filename>plyr_sg_aim_std.animx</Filename></Animation></State>
-<State><ID>stand ready</ID><Animation><Filename>plyr_nano_aim_std.animx</Filename></Animation></State>
+<State><ID>stand</ID><Animation><Filename>plyr_nano_std.animx</Filename></Animation></State>
+<State><ID>stand ready</ID><Animation><Filename>plyr_nano_rd_std.animx</Filename></Animation></State>
 <State><ID>stand ready right</ID><Animation><Filename>plyr_nano_rd_std.animx</Filename></Animation></State>
 <State><ID>stand ready left</ID><Animation><Filename>plyr_nano_rd_std.animx</Filename></Animation></State>
 <State><ID>walk</ID><Animation><Filename>player_move_forward_nano</Filename></Animation></State>
@@ -1646,8 +1646,8 @@
 <State><ID>walk ready left</ID><Animation><Filename>player_move_left_nano_rdy</Filename></Animation></State>
 <State><ID>walk ready right</ID><Animation><Filename>player_move_right_nano_rdy</Filename></Animation></State>
 <State><ID>walk ready back</ID><Animation><Filename>player_move_back_nano_rdy</Filename></Animation></State>
-<State><ID>run</ID><Animation><Filename>hvelite_rfl_sprint.animx</Filename></Animation></State>
-<State><ID>run ready</ID><Animation><Filename>hvelite_rfl_sprint.animx</Filename></Animation></State>
+<State><ID>run</ID><Animation><Filename>player_move_forward_nano</Filename></Animation></State>
+<State><ID>run ready</ID><Animation><Filename>player_move_forward_nano_rdy</Filename></Animation></State>
 <State><ID>run ready left</ID><Animation><Filename>player_move_left_nano_rdy</Filename></Animation></State>
 <State><ID>run ready right</ID><Animation><Filename>player_move_right_nano_rdy</Filename></Animation></State>
 <State><ID>run ready backpedal</ID><Animation><Filename>player_move_back_nano_rdy</Filename></Animation></State>
@@ -1700,7 +1700,7 @@
 <State><ID>cover stand left aim walkback</ID><Animation><Filename>plyr_rfl_cvrstd_aimwlk_bckl.animx</Filename></Animation></State>
 <State><ID>cover crouch left aim</ID><Animation><Filename>plyr_rfl_cvrcrch_aim_l.animx</Filename></Animation></State>
 <State><ID>cover crouch right aim</ID><Animation><Filename>plyr_rfl_cvrcrch_aim_r.animx</Filename></Animation></State>
-<State><ID>sprint</ID><Animation><Filename>hvelite_rfl_sprint.animx</Filename></Animation></State>
+<State><ID>sprint</ID><Animation><Filename>plyr_nano_sprint.animx</Filename></Animation></State>
 </States><Actions>
 <Action><ID>stand fire</ID><Animation><Filename>plyr_nano_sht.animx</Filename></Animation></Action>
 <Action><ID>walk fire</ID><Animation><Filename>plyr_nano_wlkfire.animx</Filename></Animation></Action>
@@ -1769,9 +1769,9 @@
 <State><ID>stand ready right</ID><Animation><Filename>plyr_grndr_rd_std.animx</Filename></Animation></State>
 <State><ID>run ready right</ID><Animation><Filename>player_move_right_gnd_rdy</Filename></Animation></State>
 <State><ID>run ready right</ID><Animation><Filename>player_move_right_gnd_rdy</Filename></Animation></State>
-<State><ID>stand</ID><Animation><Filename>plyr_grndr_rd_std.animx</Filename></Animation></State>
+<State><ID>stand</ID><Animation><Filename>plyr_grndr_std.animx</Filename></Animation></State>
 <State><ID>walk</ID><Animation><Filename>player_move_forward_gnd</Filename></Animation></State>
-<State><ID>run</ID><Animation><Filename>hvelite_rfl_sprint.animx</Filename></Animation></State>
+<State><ID>run</ID><Animation><Filename>player_move_forward_gnd</Filename></Animation></State>
 <State><ID>crouch</ID><Animation><Filename>plyr_grndr_crchrd.animx</Filename></Animation></State>
 <State><ID>crouch ready</ID><Animation><Filename>plyr_grndr_crchrd.animx</Filename></Animation></State>
 </States><Actions>
@@ -1799,9 +1799,9 @@
 <State><ID>stand ready right</ID><Animation><Filename>plyr_grndr_rd_std.animx</Filename></Animation></State>
 <State><ID>run ready right</ID><Animation><Filename>player_move_right_gnd_rdy</Filename></Animation></State>
 <State><ID>run ready right</ID><Animation><Filename>player_move_right_gnd_rdy</Filename></Animation></State>
-<State><ID>stand</ID><Animation><Filename>plyr_grndr_rd_std.animx</Filename></Animation></State>
+<State><ID>stand</ID><Animation><Filename>plyr_grndr_std.animx</Filename></Animation></State>
 <State><ID>walk</ID><Animation><Filename>player_move_forward_gnd</Filename></Animation></State>
-<State><ID>run</ID><Animation><Filename>hvelite_rfl_sprint.animx</Filename></Animation></State>
+<State><ID>run</ID><Animation><Filename>player_move_forward_gnd</Filename></Animation></State>
 <State><ID>crouch</ID><Animation><Filename>plyr_grndr_crchrd.animx</Filename></Animation></State>
 <State><ID>crouch ready</ID><Animation><Filename>plyr_grndr_crchrd.animx</Filename></Animation></State>
 </States><Actions>
