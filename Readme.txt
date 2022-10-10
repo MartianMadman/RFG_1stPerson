@@ -17,8 +17,6 @@ Attempts to change the 3rd person view into 1st person. This mod is far from per
 -Add 1st person to turrets.
 
 \Issues/
--Camera view position is off to the right side of the player character's head.
--Odd animations visible in player's shadow.
--Player’s character can still be visible.
--Zoom function on weapons won’t work.
+-Camera view position is off to the right side of the player's head.
+-Zoom function on weapons don't work.
 -Fov cannot be changed.
