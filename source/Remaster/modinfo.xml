@@ -38,12 +38,12 @@
 					</_Editor>
 				<Default_Offset>
 					<X>0.0</X>
-					<Y>1.725</Y>
+					<Y>1.0</Y>
 					<Z>0.5</Z>
 					</Default_Offset>
 				<Fine_Aim_Offset>
 					<X>0.0</X>
-					<Y>1.725</Y>
+					<Y>1.0</Y>
 					<Z>0.5</Z>
 					</Fine_Aim_Offset>
 				</Turret>
