@@ -12,10 +12,10 @@ Attempts to change the 3rd person view into 1st person. This mod is far from per
 
 \Changelog v2.1.2/
 -Add modmanager option to enable or disable melee auto-targeting.
--Restore default gutter running animations.
 -Add ability to skip all startup screens.
 -Use walking animations only.
 -Add 1st person to turrets.
+-Add head bobbing.
 
 \Issues/
 -Camera view position is off to the right side of the player's head.
