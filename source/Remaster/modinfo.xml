@@ -442,8 +442,8 @@
 						<Blur>0</Blur>
 						<Strong_Vibration>0.0</Strong_Vibration>
 						<Weak_Vibration>0.0</Weak_Vibration>
-						<Oscillation1>0.1</Oscillation1>
-						<Oscillation2>0.1</Oscillation2>
+						<Oscillation1>0.15</Oscillation1>
+						<Oscillation2>0.15</Oscillation2>
 						</Strength_Element>
 					<Strength_Element>
 						<Time>0.5</Time>
@@ -456,23 +456,23 @@
 						<Blur>0.0</Blur>
 						<Strong_Vibration>0.0</Strong_Vibration>
 						<Weak_Vibration>0.0</Weak_Vibration>
-						<Oscillation1>0.1</Oscillation1>
-						<Oscillation2>0.1</Oscillation2>
+						<Oscillation1>0.15</Oscillation1>
+						<Oscillation2>0.15</Oscillation2>
 						</Strength_Element>
 					</Strength_Graph>
 				<_Editor>
 					<Category>Entries</Category>
 					</_Editor>
 				<Oscillation1>
-					<Pitch>0.1</Pitch>
-					<Yaw>0.1</Yaw>
-					<Roll>0.1</Roll>
+					<Pitch>0.0</Pitch>
+					<Yaw>0.0</Yaw>
+					<Roll>0.15</Roll>
 					<Frequency>1.7</Frequency>
 					</Oscillation1>
 				<Oscillation2>
-					<Pitch>0.1</Pitch>
-					<Yaw>0.1</Yaw>
-					<Roll>0.1</Roll>
+					<Pitch>0.0</Pitch>
+					<Yaw>0.0</Yaw>
+					<Roll>0.15</Roll>
 					<Frequency>1.7</Frequency>
 					</Oscillation2>
 				</Camera_Shake>
@@ -521,8 +521,8 @@
 						<Blur>0</Blur>
 						<Strong_Vibration>0.0</Strong_Vibration>
 						<Weak_Vibration>0.0</Weak_Vibration>
-						<Oscillation1>0.1</Oscillation1>
-						<Oscillation2>0.1</Oscillation2>
+						<Oscillation1>0.15</Oscillation1>
+						<Oscillation2>0.15</Oscillation2>
 						</Strength_Element>
 					<Strength_Element>
 						<Time>0.5</Time>
@@ -535,23 +535,23 @@
 						<Blur>0.0</Blur>
 						<Strong_Vibration>0.0</Strong_Vibration>
 						<Weak_Vibration>0.0</Weak_Vibration>
-						<Oscillation1>0.1</Oscillation1>
-						<Oscillation2>0.1</Oscillation2>
+						<Oscillation1>0.15</Oscillation1>
+						<Oscillation2>0.15</Oscillation2>
 						</Strength_Element>
 					</Strength_Graph>
 				<_Editor>
 					<Category>Entries</Category>
 					</_Editor>
 				<Oscillation1>
-					<Pitch>0.1</Pitch>
-					<Yaw>0.1</Yaw>
-					<Roll>0.1</Roll>
+					<Pitch>0.0</Pitch>
+					<Yaw>0.0</Yaw>
+					<Roll>0.15</Roll>
 					<Frequency>1.7</Frequency>
 					</Oscillation1>
 				<Oscillation2>
-					<Pitch>0.1</Pitch>
-					<Yaw>0.1</Yaw>
-					<Roll>0.1</Roll>
+					<Pitch>0.0</Pitch>
+					<Yaw>0.0</Yaw>
+					<Roll>0.15</Roll>
 					<Frequency>1.7</Frequency>
 					</Oscillation2>
 				</Camera_Shake>
