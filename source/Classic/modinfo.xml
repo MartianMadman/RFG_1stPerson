@@ -1,5 +1,6 @@
 <Mod Name="1st_Person_v2.1.2">
   	<Author>MartianMadman</Author>
+	<WebLink Name="Github">https://github.com/MartianMadman</WebLink>
   	<Description>Attempts to change the 3rd person view into 1st person. This mod is far from perfect so don't set your expectations too high. Vertical fov is at 43 and Horizontal fov will differ depending on the aspect ratio. Horizontal fovs will be |5:4 = 52|4:3 = 55|16:10 = 64|16:9 = 70|21:9 = 85|. Vehicles remain in 3rd person.</Description>
   	<UserInput>
     <ListBox Name="PlayerHeight" DisplayName="PlayerHeight">

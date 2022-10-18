@@ -100,9 +100,9 @@
 <State><ID>run aim right</ID><Animation><Filename>plyr_rfl_aim_wlk_r.animx</Filename></Animation></State>
 <State><ID>stand aim</ID><Animation><Filename>plyr_rfl_aim_std.animx</Filename></Animation></State>
 <State><ID>fine aim walk</ID><Animation><Filename>plyr_rfl_aim_wlk.animx</Filename></Animation></State>
-<State><ID>fine aim walk back</ID><Animation><Filename>plyr_rfl_aim_wlk_bck.animx</Filename></Animation></State>
-<State><ID>fine aim walk left</ID><Animation><Filename>plyr_rfl_aim_wlk_l.animx</Filename></Animation></State>
-<State><ID>fine aim walk right</ID><Animation><Filename>plyr_rfl_aim_wlk_r.animx</Filename></Animation></State>
+<State><ID>fine aim walk back</ID><Animation><Filename>plyr_rfl_aim_wlk.animx</Filename></Animation></State>
+<State><ID>fine aim walk left</ID><Animation><Filename>plyr_rfl_aim_wlk.animx</Filename></Animation></State>
+<State><ID>fine aim walk right</ID><Animation><Filename>plyr_rfl_aim_wlk.animx</Filename></Animation></State>
 <State><ID>fine aim crouch</ID><Animation><Filename>plyr_rfl_fnaim_crch.animx</Filename></Animation></State>
 <State><ID>fine aim crouch walk</ID><Animation><Filename>plyr_rfl_fnaim_crchwlk.animx</Filename></Animation></State>
 <State><ID>fine aim crouch walk back</ID><Animation><Filename>plyr_rfl_fnaim_crchwlk_bck.animx</Filename></Animation></State>
