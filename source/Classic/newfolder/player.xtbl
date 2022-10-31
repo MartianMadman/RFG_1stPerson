@@ -1400,7 +1400,7 @@
 <Action><ID>stand shuffle left</ID><Animation><Filename>plyr_rfl_rd_std_trnlft.animx</Filename></Animation></Action>
 <Action><ID>stand ready shuffle right</ID><Animation><Filename>plyr_rfl_rd_std_trnrght.animx</Filename></Animation></Action>
 <Action><ID>stand shuffle right</ID><Animation><Filename>plyr_rfl_rd_std_trnrght.animx</Filename></Animation></Action>
-<Action><ID>run back to left</ID><Animation><Filename>plyr_rfl_rd_run_l.animx</Filename></Animation></Action>
+<Action><ID>run back to left</ID><Animation><Filename>plyr_snpr_aim_wlk_l.animx</Filename></Animation></Action>
 <Action><ID>run fire left</ID><Animation><Filename>plyr_snpr_wlkfire_l.animx</Filename></Animation></Action>
 <Action><ID>run fire back</ID><Animation><Filename>plyr_snpr_wlkfire_bck.animx</Filename></Animation></Action>
 <Action><ID>run fire right</ID><Animation><Filename>plyr_snpr_wlkfire_r.animx</Filename></Animation></Action>
